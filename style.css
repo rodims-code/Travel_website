@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+header{
+    padding: 20px 8%;
+}
+
+section{
+    padding: 70px 8%;
+}
+
+header{
+    display: flex;
+    /*Pour bien separer les element*/
+    justify-content: space-between;
+    align-items: center;
+    /*Pour que ca prenne 100% de la page*/
+    width: 100%;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo-div{
+    width: 30%;
+
+}
+
+.logo span{
+    color: yellow;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+
+    width: 40%;
+    list-style: none;
+}
+
+ul li{
+    padding: 10px 25px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #999;
+    transition: 0,5s;
+    font-size: 14px;
+}
+
+ul li a:hover {
+    background-color: rgb(255, 255, 7);
+    padding: 15px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.btn-header{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+
+.btn{
+    color: #000;
+    background-color:rgb(255, 255, 7);
+    border-radius: 20px;
+    
+}
