@@ -35,7 +35,7 @@ header{
 }
 
 .logo span{
-    color: yellow;
+    color: #F6D238;
 }
 
 ul{
@@ -54,12 +54,12 @@ ul li{
 ul li a{
     text-decoration: none;
     color: #999;
-    transition: 0,5s;
+    transition: 0.5s;
     font-size: 14px;
 }
 
 ul li a:hover {
-    background-color: rgb(255, 255, 7);
+    background-color: #F6D238;
     padding: 15px;
     color: #000;
     font-weight: bold;
@@ -74,7 +74,93 @@ ul li a:hover {
 
 .btn{
     color: #000;
-    background-color:rgb(255, 255, 7);
+    background-color:#F6D238;
     border-radius: 20px;
-    
+    padding: 15px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1); 
 }
+.btn:hover{
+    background-color: #f1f1f1;
+    transform: rotate(5deg);
+}
+.btn i{
+    margin-right: 5px;
+}
+
+.home-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-section .left{
+    position: relative;
+    height: 500px;
+    width: 600px;
+
+}
+.home-section .left img{
+    position: absolute;
+    /*Pour ameliorer l'image*/
+    object-fit: cover;
+    border: 8px solid #fff;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    border-radius: 2rem;
+}
+
+.home-section .left-image-1{
+    width: 450px;
+    height: 500px;
+    transition: 0.5s;
+}
+.home-section .left-image-1:hover{
+    /*scale pour agrandir un peut l'image*/
+    transform: scale(1.1) rotate(10deg);
+}
+
+.home-section .left-image-2{
+    width: 350px;
+    height: 350px;
+    top: 150px;
+    left: 250px;
+    transition: 0.5s;
+}
+.home-section .left-image-2:hover{
+    /*scale pour agrandir un peut l'image*/
+    transform: scale(1.1) rotate(-10deg);
+}
+
+.right{
+    margin-left: 100px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .right .text-right{
+    color: #F6D238; 
+    font-weight: bold;
+}
+.right h1{
+        margin: 20px 0;
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 50px;
+}
+.right p{
+    margin-bottom: 25px;
+    color: #999;
+    width: 70%;
+    font-size: 14px;
+    font-size: 14px;
+}
+.see-video{
+    border: 0;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+} */
