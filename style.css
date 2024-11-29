@@ -469,3 +469,19 @@ ul li a:hover {
     width: 400px;
     outline: none;
 }
+
+footer{
+    background-color: #f1f1f1;
+    border-radius: 60px 60px 0 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .right-footer{
+    color: #999;
+    font-size: 14px;
+}
+
+footer .right-footer span{
+    color: #F6D238;
+}
