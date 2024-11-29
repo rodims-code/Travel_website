@@ -426,3 +426,46 @@ ul li a:hover {
     margin: 30px auto;
     color: #999;
 }
+
+.view-all{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-trip h1{
+    margin-bottom: 20px;
+}
+
+.email-trip p{
+    font-size: 14px;
+    color: #999;
+}
+
+.together{
+    display : flex;
+    justify-content: space-between;
+}
+
+.email-trip .together .text{
+    width: 500px;
+}
+
+.input{
+    border: #fff;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    height: fit-content;
+    display: flex;
+    border-radius: 20px;
+    /* Pour que les elements ne depasse pas l'element  */
+    overflow: hidden;
+}
+
+.input input{
+    border: 0;
+    padding: 12px;
+    padding-right: 20px;
+    width: 400px;
+    outline: none;
+}
